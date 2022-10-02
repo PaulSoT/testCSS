@@ -1,0 +1,45 @@
+#titulo {
+    color: blueviolet;
+}
+p.texto {
+    color: red;
+}
+p.especial{
+    color: aquamarine;
+}
+
+div p {
+    color: orange;
+}
+
+div h2, div h3{
+    color: blue;
+}
+
+*{
+    font-size: 24px;
+    color: black; /*no cambia el color
+    a pesar de estar ultimo, esto es debido
+    a que solo cambiara si este no fue 
+    cambiado anteriormente*/
+}
+/*
+.color  {
+    color: rgb(255, 00, 00);
+}
+*/
+.color{
+  /* border: 5px red solid; */
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+  border-width: 2rem;
+}
+#fondo{
+    background-color: red;
+    /* opacity: 0.3; */
+    height: 100px;
+    background-image: url(jacku.jpg);
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+}
