@@ -74,6 +74,12 @@ a:active{
     color: blue;
 }
 
+#position{
+    position: relative;
+    left: 20px;
+     
+}
+
 
 
 
